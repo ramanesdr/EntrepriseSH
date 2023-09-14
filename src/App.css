@@ -59,6 +59,24 @@ transition: 1s;
 .crd{
   border-top-left-radius: 200em !important;
 }
+.load{
+  width: 100px;
+  padding-top: 30vh;
+ margin: auto;
+}
+.Large{
+  font-size: 1em;
+  padding: 15px;
+}
+.parallax{
+  height: 120vh;
+}
+.paral{
+  background-color: rgba(0, 0, 255, 0.595);
+  padding: 2em;
+  height: 130vh;
+ 
+}
 .card:hover{
   background-color: RGB( 0, 99, 219);
   color: white;
@@ -70,16 +88,21 @@ transition: 1s;
 .card:not(:hover){
   transition: 1s;
 }
-
+.card{
+  margin: 2em;
+}
 @media screen and (max-width: 1024px) {
   .nav{
     height: 7em;
   }
   .logo{
-    width: 25%;
+    width: 300px;
     height: 75px;
   } 
   .sl{
     font-size: 6em;
+    }
+    .card-title > h1{
+      font-size: 35px
     }
 }
