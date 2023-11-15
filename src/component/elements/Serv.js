@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react';
 import img1 from '../img/i1.jpg'
 import M from 'materialize-css';
+
+
+
 function Serv() {
   useEffect(() => {
     document.addEventListener('DOMContentLoaded', function() {
@@ -13,7 +16,7 @@ function Serv() {
 
   return (
     <div className='container-fluid'>
-      <div class="parallax-container" style={{height:"130vh"}}>
+      <div class="parallax-container" >
       <div class="parallax" ><img src={img1} /></div>
       <div className='paral'>
          <div className=''>

@@ -3,20 +3,22 @@ import { Route, Routes } from "react-router-dom";
  import Apropos from "./component/pages/apropos";
  import Services from "./component/pages/services";
  import Contact from "./component/pages/contact"
-
+import Nav from './component/elements/nav'
+import Footer from "./component/elements/Footer";
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-       
+       <Nav />
         <Routes>
           <Route path={"/"} element={<Acceuil />} />
           <Route path={"/apropos"} element={<Apropos />} />
           <Route path={"/services"} element={<Services />} />
           <Route path={"/contact"} element={<Contact />} />
         </Routes>
+        <Footer />
     </div>
   );
 }

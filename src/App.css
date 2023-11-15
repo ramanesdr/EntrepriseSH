@@ -1,13 +1,13 @@
 
 .logo{
-  width: 25%;
-  height: 125px;
-} 
+  
+ width: 150px;
+}
 .nav-link{
   color: white;
 }
 .logo:hover{
-  transform: rotateZ(5deg);
+  transform: rotateX(360deg);
   transition: 1s;
 }
 .logo:not(:hover){
@@ -38,11 +38,12 @@ font-size: 8em;
 .navli{
   background: none;
 }
+
 .navli:hover{
   transform: scale(2);
   color: white;
   transition: 1s;
-  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 5px 5px 5px rgba(206,89,55,0);}
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 55px #ffffff, 0 0 75px #ffffff, 5px 5px 5px rgba(206,89,55,0);}
   .navli:not(:hover){
   transition: 1s;
 }
@@ -52,24 +53,25 @@ font-size: 8em;
 .nobnav:hover{
 transform: scale(1.1);
 transition: 1s;
-text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 5px 5px 5px rgba(206,89,55,0);}
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 55px #ffffff, 0 0 75px #ffffff, 5px 5px 5px rgba(206,89,55,0);}
 .nobnav:not(:hover){
 transition: 1s;
 }
-.crd{
-  border-top-left-radius: 200em !important;
-}
+
 .load{
   width: 100px;
   padding-top: 30vh;
  margin: auto;
 }
 .Large{
-  font-size: 1em;
+  font-size: 1Sem;
   padding: 15px;
 }
 .parallax{
   height: 120vh;
+}
+.parallax-container{
+height: 130vh;
 }
 .paral{
   background-color: rgba(0, 0, 255, 0.595);
@@ -77,13 +79,27 @@ transition: 1s;
   height: 130vh;
  
 }
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.centered > h3{
+  color: rgba(0, 0, 0, 0.595);
+}
+.log2{
+  width: 20rem;
+  margin: auto;
+}
 .card:hover{
   background-color: RGB( 0, 99, 219);
   color: white;
   transform: scale(1.1);
   transition: 1s;
-  -webkit-box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0); 
-  box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0);  ;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 50px 50px 15px 5px rgba(0,0,0,0), 50px 50px 15px 5px rgba(0,0,0,0), 50px 50px 15px 5px rgba(0,0,0,0), 50px 50px 15px 5px rgba(0,0,0,0), 50px 50px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 50px 50px 15px 5px rgba(0,0,0,0), 50px 50px 15px 5px rgba(0,0,0,0), 50px 50px 15px 5px rgba(0,0,0,0), 50px 50px 15px 5px rgba(0,0,0,0), 50px 50px 15px 5px rgba(0,0,0,0);
 }
 .card:not(:hover){
   transition: 1s;
@@ -91,18 +107,56 @@ transition: 1s;
 .card{
   margin: 2em;
 }
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+#svg {
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+}
+#svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #365FA0;
+	font-size: 50px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(72,138,204,0); stroke: rgb(0,99,219);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(72,138,204,0); stroke: rgb(0,99,219); }
+	80%  {fill: rgba(72,138,204,0); stroke: rgb(0,99,219); stroke-width: 3; }
+	100% {
+		fill: rgb(0,99,219); stroke: rgba(54,95,160,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+.wrapper {background-color: #FFFFFF};
 @media screen and (max-width: 1024px) {
   .nav{
     height: 7em;
   }
-  .logo{
-    width: 300px;
-    height: 75px;
-  } 
+ 
   .sl{
     font-size: 6em;
     }
     .card-title > h1{
       font-size: 35px
     }
+    #svg text {
+  
+      font-size: 25px;
+    }
+}
+@media screen and (max-width: 750px) {
+  .paral, .parallax, .parallax-container{
+    font-size: 200vh;
+    padding: 0;
+  }
+ 
+  #svg text {
+  
+    font-size: 20px;
+  }
 }

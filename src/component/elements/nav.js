@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import M from 'materialize-css';
 import { Link } from 'react-router-dom';
-import Logo from '../img/logo.jpg'
+import Logo from '../img/logo2.png'
 
 function Nav() {
   useEffect(() => {
@@ -15,14 +15,15 @@ function Nav() {
     <div className='container-fluid header nav'>
       
     <nav className='transparent nav'>
+      
     <div className="nav-wrapper">
       <img 
       src={Logo}
       alt='Logo'
       className='logo'
       />
-      <Link to="/" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></Link>
-      <ul className="right hide-on-med-and-down">
+  <Link to="/" data-target="mobile-demo" className="sidenav-trigger right"><i className="material-icons">menu</i></Link>
+      <ul className="right hide-on-med-and-down right-align">
         <li><Link className='navli transparent' to="/">Accueil</Link></li>
         <li><Link className='navli transparent' to="/apropos">A propos</Link></li>
         <li><Link className='navli transparent' to="/services">Services</Link></li>
