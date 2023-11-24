@@ -23,7 +23,7 @@ function Footer() {
     </div>
     <div class="footer-copyright">
       <div class="container">
-      © 2023 Copyright Entreprise Saley Haougui <a href='https://www.linkedin.com/in/ashaougui/' target='_blank'>[by ramaneSDR]</a>
+      © 2023 Copyright Entreprise Saley Haougui <a href='https://portfolio-ramanesdr.vercel.app/' target='_blank'>[by ramaneSDR]</a>
       </div>
     </div>
   </footer>
