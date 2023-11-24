@@ -37,7 +37,7 @@ function Nav() {
       src={Logo}
       alt='Logo'
       className='logo'
-      style={{width: "100%"}}
+      style={{width: "50%"}}
       />
     <li><Link className='nobnav white-text transparent' to="/">Accueil</Link></li>
     <li><Link className='nobnav white-text transparent' to="/apropos">A propos</Link></li>

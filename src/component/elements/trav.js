@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Logo from '../img/logo2.png'
 
 
 function trav() {
@@ -11,7 +11,11 @@ function trav() {
   
 </div>
     <div className='centered'>
-   
+    <img 
+    src={Logo}
+    alt='logo'
+    style={{width: '50%'}}
+    />
     <h3>
       Pourquoi Nous choisir?
     </h3>

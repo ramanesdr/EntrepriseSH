@@ -12,7 +12,7 @@ function MaterializeSlider() {
     const slider = document.querySelectorAll('.slider');
     window.M.Slider.init(slider, {
       indicators: false, // Afficher les indicateurs de diapositives
-      height: 700, // Hauteur du slider
+      height: 600, // Hauteur du slider
     });
   }, []);
 
