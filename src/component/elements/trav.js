@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../img/logo2.png'
+import Img from '../img/i3.jpg'
 
 
 function trav() {
@@ -21,6 +22,88 @@ function trav() {
     </h3>
     <div className='contanier'>
     <div className="row">
+      <div className='col s12 m6'>
+        <div className="card ">
+    <div className="card-image waves-effect waves-block waves-light">
+      <img className="activator" src={Img} />
+    </div>
+    <div className="card-content">
+    <h2>🌟</h2>
+      <span className="card-title activator orange-text">Engagement envers la Qualité<a class="btn-floating halfway-fab waves-effect waves-light blue"><i className="material-icons ">add</i></a></span>
+      
+    </div>
+    <div className="card-reveal">
+    <h2>🌟</h2>
+      <span className="card-title orange-text"><i className="material-icons right">close</i><br/>Engagement envers la Qualité</span>
+      <p>La qualité est au cœur de tout ce que nous faisons. Chaque brique posée, chaque plan élaboré, est le reflet de notre engagement envers des normes de qualité rigoureuses. Nous croyons que chaque projet, qu'il soit petit ou grand, mérite une attention méticuleuse pour assurer des résultats exceptionnels.
+
+</p>
+    </div>
+  </div>
+      </div>
+    
+
+      <div className='col s12 m6'>
+        <div className="card">
+    <div className="card-image waves-effect waves-block waves-light">
+      <img className="activator" src={Img} />
+    </div>
+    <div className="card-content">
+    <h2>😃</h2>
+      <span className="card-title activator orange-text">Satisfaction du Client au Centre de Nos Priorités<a class="btn-floating halfway-fab waves-effect waves-light blue"><i className="material-icons ">add</i></a></span>
+      
+    </div>
+    <div className="card-reveal">
+    <h2>😃</h2>
+      <span className="card-title orange-text"><i className="material-icons right">close</i><br/>Satisfaction du Client au Centre de Nos Priorités</span>
+      <p>La satisfaction de nos clients est notre principale préoccupation. Nous travaillons en étroite collaboration avec nos clients pour comprendre leurs besoins et leurs aspirations, et nous nous efforçons de dépasser leurs attentes à chaque étape du projet. Notre approche axée sur le client se traduit par des relations durables et des projets réussis.
+
+          </p>
+    </div>
+  </div>
+      </div>
+
+      <div className='col s12 m6'>
+        <div className="card">
+    <div className="card-image waves-effect waves-block waves-light">
+      <img className="activator" src={Img} />
+    </div>
+    <div className="card-content">
+    <h2>🏗️</h2>
+      <span className="card-title activator orange-text">Transformation des Rêves en Réalité<a class="btn-floating halfway-fab waves-effect waves-light blue"><i className="material-icons ">add</i></a></span>
+      
+    </div>
+    <div className="card-reveal">
+    <h2>🏗️</h2>
+      <span className="card-title orange-text"><i className="material-icons right">close</i><br/>Transformation des Rêves en Réalité</span>
+      <p>A l'ENTREPRISE SALEY HAOUGUI, nous comprenons que chaque projet représente un rêve unique. Notre équipe s'engage à transformer ces rêves en réalité solide et durable. Que vous construisiez une maison, un immeuble commercial ou un projet d'infrastructures, nous sommes là pour concrétiser vos idées et créer des espaces exceptionnels.
+
+</p>
+    </div>
+  </div>
+      </div>
+
+      <div className='col s12 m6'>
+        <div className="card">
+    <div className="card-image waves-effect waves-block waves-light">
+      <img className="activator" src={Img} />
+    </div>
+    <div className="card-content">
+    <h2>💼</h2>
+      <span className="card-title activator orange-text">Dévouement et Professionnalisme<a class="btn-floating halfway-fab waves-effect waves-light blue"><i className="material-icons ">add</i></a></span>
+      
+    </div>
+    <div className="card-reveal">
+    <h2>💼</h2>
+      <span className="card-title orange-text"><i className="material-icons right">close</i><br/>Dévouement et Professionnalisme</span>
+      <p>Notre dévouement envers l'excellence et notre approche professionnelle distinguent notre entreprise. Nous respectons les délais, travaillons avec intégrité et nous efforçons constamment de surpasser les normes de l'industrie. Votre confiance est notre priorité, et nous sommes prêts à déployer tous les efforts nécessaires pour mériter cette confiance.
+
+          </p>
+    </div>
+  </div>
+      </div>
+
+     { /*
     <div className="col s12 m6">
       <div className="card" style={{backgroundColor: '#0063db'}}>
         <div className="card-content white-text">
@@ -68,7 +151,7 @@ function trav() {
         </div>
         
       </div>
-    </div>
+    </div>*/}
    
   </div>
   <p>

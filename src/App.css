@@ -56,7 +56,14 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #ffffff, 0 0 20px #ffffff, 0 
 .nobnav:not(:hover){
 transition: 1s;
 }
-
+.card-reveal>p{
+  color: #0063db;
+}
+.card-image{
+ border-top-left-radius: 20px;
+ border-top-right-radius: 20px;
+  height: 25vh;
+}
 .load{
   width: 100px;
   padding-top: 30vh;
@@ -147,6 +154,7 @@ height: 130vh;
   
       font-size: 25px;
     }
+
 }
 @media screen and (max-width: 750px) {
   .paral, .parallax, .parallax-container{
@@ -157,5 +165,14 @@ height: 130vh;
   #svg text {
   
     font-size: 20px;
+  }
+  .card:hover{
+    background-color: RGB( 0, 99, 219);
+    color: white;
+    transform: none;
+    transition: 1s;
+    border-radius: 20px;
+    -webkit-box-shadow: none; 
+    box-shadow: none;
   }
 }
