@@ -175,4 +175,8 @@ height: 130vh;
     -webkit-box-shadow: none; 
     box-shadow: none;
   }
+  .sl{
+    
+    font-size: 5em;
+    }
 }
