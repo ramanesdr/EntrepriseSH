@@ -13,7 +13,7 @@ function trav() {
 </div>
     <div className='centered'>
     <img data-aos="zoom-out"
-    data-aos-offset="500"
+    data-aos-offset="300"
     data-aos-duration="500"
     src={Logo}
     alt='logo'
