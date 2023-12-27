@@ -10,7 +10,7 @@ function Cards() {
     <div className='container' style={{paddingTop:"40px", paddingBottom:"40px"}}>
 
         <div class="row">
-    <div class="col s12 m4 crd">
+    <div class="col s12 m4 crd" data-aos="zoom-out-right">
       <div class="card">
         <div class="card-image">
           <img src={img1}/>
@@ -24,7 +24,7 @@ function Cards() {
       </div>
     </div>
 
-    <div class="col s12 m4 crd">
+    <div class="col s12 m4 crd" data-aos="zoom-out-down">
       <div class="card">
         <div class="card-image">
           <img src={img2}/>
@@ -39,7 +39,7 @@ function Cards() {
     </div>
 
 
-    <div class="col s12 m4 crd">
+    <div class="col s12 m4 crd" data-aos="zoom-out-left">
       <div class="card">
         <div class="card-image">
           <img src={img3}/>

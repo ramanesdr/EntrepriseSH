@@ -12,7 +12,9 @@ function trav() {
   
 </div>
     <div className='centered'>
-    <img 
+    <img data-aos="zoom-out"
+    data-aos-offset="500"
+    data-aos-duration="500"
     src={Logo}
     alt='logo'
     style={{width: '50%'}}
@@ -22,7 +24,7 @@ function trav() {
     </h3>
     <div className='contanier'>
     <div className="row">
-      <div className='col s12 m6'>
+      <div className='col s12 m6' data-aos="fade-up" data-aos-duration="1000">
         <div className="card ">
     <div className="card-image waves-effect waves-block waves-light">
       <img className="activator" src={Img} />
@@ -43,7 +45,7 @@ function trav() {
       </div>
     
 
-      <div className='col s12 m6'>
+      <div className='col s12 m6' data-aos="fade-up" data-aos-duration="1000">
         <div className="card">
     <div className="card-image waves-effect waves-block waves-light">
       <img className="activator" src={Img} />
@@ -63,7 +65,7 @@ function trav() {
   </div>
       </div>
 
-      <div className='col s12 m6'>
+      <div className='col s12 m6' data-aos="fade-up" data-aos-duration="1000">
         <div className="card">
     <div className="card-image waves-effect waves-block waves-light">
       <img className="activator" src={Img} />
@@ -83,7 +85,7 @@ function trav() {
   </div>
       </div>
 
-      <div className='col s12 m6'>
+      <div className='col s12 m6' data-aos="fade-up" data-aos-duration="1000">
         <div className="card">
     <div className="card-image waves-effect waves-block waves-light">
       <img className="activator" src={Img} />

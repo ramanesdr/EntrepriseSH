@@ -4,11 +4,19 @@ import { Route, Routes } from "react-router-dom";
  import Services from "./component/pages/services";
  import Contact from "./component/pages/contact"
 import Nav from './component/elements/nav'
+import AOS from "aos";
+import 'aos/dist/aos.css';
 import Footer from "./component/elements/Footer";
 
 import './App.css';
+import { useEffect } from "react";
 
 function App() {
+
+  useEffect(() => {
+    AOS.init();
+  }, []); 
+
   return (
     <div className="App">
        <Nav />
