@@ -15,6 +15,7 @@ function Serv() {
 
 
   return (
+    
     <div className='container-fluid'>
       <div class="parallax-container" >
       <div class="parallax" ><img src={img1} /></div>

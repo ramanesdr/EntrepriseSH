@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../img/logo2.png'
+import construire from '../img/Construire.webp'
 import Img from '../img/i3.jpg'
 
 
@@ -12,18 +12,13 @@ function trav() {
   
 </div>
     <div className='centered'>
-    <img data-aos="zoom-out"
-    data-aos-offset="300"
-    data-aos-duration="500"
-    src={Logo}
-    alt='logo'
-    style={{width: '50%'}}
-    />
-    <h3>
-      Pourquoi Nous choisir?
-    </h3>
+    
+  
+    <h1 class="blue-text text-darken-1 ">Pourquoi nous choisir</h1>
+
     <div className='contanier'>
     <div className="row">
+      <div className='col s12 m6'>
       <div className='col s12 m6' data-aos="fade-up" data-aos-duration="1000">
         <div className="card ">
     <div className="card-image waves-effect waves-block waves-light">
@@ -104,7 +99,16 @@ function trav() {
     </div>
   </div>
       </div>
-
+      </div>
+      <div className='col s12 m6 responsive-img'>
+      <img data-aos="zoom-out"
+    data-aos-offset="300"
+    data-aos-duration="500"
+    src={construire}
+    alt='logo'
+    style={{width: '100%' , height: '100vh'}}
+    />
+      </div>
      { /*
     <div className="col s12 m6">
       <div className="card" style={{backgroundColor: '#0063db'}}>
