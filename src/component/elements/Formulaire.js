@@ -7,10 +7,43 @@ function Form() {
       <div className="row" style={{ marginTop: '100px' }}>
         <div className='col s12 m6'>
           <div className='row'>
-            <div className="s12" style={{marginLeft: "50px" , display: "flex"}}>
-              <div className="single__info__box mb-30">
+            <div className="s12" style={{marginLeft: "50px" , display: "flex" , marginTop: "20px"}}>
+              <div className="single__info__box mb-30" style={{display: "flex" , fontSize: "30px"}}>
                 <div className="icon">
-                  <span className="material-icons">
+                  <span className="material-icons" style={{fontSize: "50px"}}>
+                    location_on
+                  </span>
+                </div>
+                <span className="mb-15">414 Rd. New York,</span>
+                <span>USA</span>
+              </div>
+            </div>
+            <div className="s12" style={{marginLeft: "50px" , display: "flex" , marginTop: "30px"}}>
+              <div className="single__info__box mb-30" style={{display: "flex" , fontSize: "30px"}}>
+                <div className="icon">
+                  <span className="material-icons" style={{fontSize: "50px"}}>
+                  phone
+                  </span>
+                </div>
+                <span className="mb-15">414 Rd. New York,</span>
+                <span>USA</span>
+              </div>
+            </div>
+            <div className="s12" style={{marginLeft: "50px" , display: "flex" , marginTop: "30px"}}>
+              <div className="single__info__box mb-30" style={{display: "flex" , fontSize: "30px"}}>
+                <div className="icon">
+                  <span className="material-icons" style={{fontSize: "50px"}}>
+                  mail_outline
+                  </span>
+                </div>
+                <span className="mb-15">414 Rd. New York,</span>
+                <span>USA</span>
+              </div>
+            </div>
+            <div className="s12" style={{marginLeft: "50px" , display: "flex" , marginTop: "30px"}}>
+              <div className="single__info__box mb-30" style={{display: "flex" , fontSize: "30px"}}>
+                <div className="icon">
+                  <span className="material-icons" style={{fontSize: "50px"}}>
                     location_on
                   </span>
                 </div>
