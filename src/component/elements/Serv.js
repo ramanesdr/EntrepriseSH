@@ -6,15 +6,13 @@ import M from 'materialize-css';
 
 function Serv() {
   useEffect(() => {
-    document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.parallax');
-      var instances = M.Parallax.init(elems, );
-    });    const parallaxElements = document.querySelectorAll('.parallax');
+       const parallaxElements = document.querySelectorAll('.parallax');
     window.M.Parallax.init(parallaxElements);
   }, []);
 
 
   return (
+    
     <div className='container-fluid'>
       <div class="parallax-container" >
       <div class="parallax" ><img src={img1} /></div>
